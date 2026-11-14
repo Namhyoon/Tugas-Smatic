@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+
+<div class="glass-card">
+
+<div class="Judul skripsi">
+    <h1 class="judul">Formulir Pendaftaran</h1>
+    <p class="deskripsi">Silakan isi formulir pendaftaran di bawah ini dengan informasi yang benar dan lengkap.</p>
+</div>
+
+<form class="formulir">
+    <label for="nama">Nama Lengkap:</label><br>
+    <input type="text" id="nama" name="nama" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="tanggal lahir">Tanggal Lahir:</label><br>
+    <input type="date" id="tanggal lahir" name="tanggal lahir" required><br><br>
+
+    <label for="umur">Umur:</label><br>
+    <input type="number" id="umur" name="umur" placeholder="Umur" min="0" max="100" required><br><br>
+    
+    <label for="nomor telepon">Nomor Telepon:</label><br>
+    <input type="tel" id="nomor telepon" name="nomor telepon" required><br><br>
+
+    <label for="jenis kelamin">Jenis Kelamin:</label><br>
+    <input type="radio" id="laki-laki" name="jenis kelamin" value="laki-laki" required>
+    <label for="laki-laki">Laki-laki</label><br>
+    <input type="radio" id="perempuan" name="jenis kelamin" value="perempuan" required>
+    <label for="perempuan">Perempuan</label><br><br>
+
+    <label for="hobi">Hobi:</label><br>
+    <input type="checkbox" id="membaca" name="hobi" value="membaca">
+        <label for="membaca">Membaca</label><br>
+    <input type="checkbox" id="olahraga" name="hobi" value="olahraga">
+        <label for="olahraga">Olahraga</label><br>
+    <input type="checkbox" id="Menulis" name="hobi" value="Menulis">
+        <label for="Menulis">Menulis</label><br><br>  
+
+        <button type="submit">Daftar</button><br>
+</form>
+
+
+</body>
+</html>
